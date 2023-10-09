@@ -1,3 +1,5 @@
+-- DATA EXPLORATION USING SQL
+-----------------------------------------------------------------------------------------------------------------------
 --What % of population infected due to covid
 SELECT Location,date, population,total_cases, 
 (total_cases/population) as InfectedPercentage
